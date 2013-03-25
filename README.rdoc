@@ -1,0 +1,28 @@
+= arigato
+
+* {Homepage}[https://github.com/tnantoka/arigato#readme]
+* {Issues}[https://github.com/tnantoka/arigato/issues]
+* {Documentation}[http://rubydoc.info/gems/arigato/frames]
+* {Email}[mailto:bornneet at livedoor.com]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'arigato'
+
+== Requirements
+
+== Install
+
+  $ gem install arigato
+
+== Copyright
+
+Copyright (c) 2013 tnantoka
+
+See LICENSE.txt for details.
