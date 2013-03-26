@@ -7,15 +7,21 @@
 
 == Description
 
-TODO: Description
+  Special Thanks Page Generator
 
 == Features
 
+  Generate HTML or JSON, YAML, CSV form your Gemfile
+
 == Examples
 
-  require 'arigato'
+  $ thanks g bootstrap
+        create  thanks
+        create  thanks/index.html
 
 == Requirements
+
+ Ruby 1.9+ 
 
 == Install
 
