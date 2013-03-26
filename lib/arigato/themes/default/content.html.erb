@@ -1,0 +1,14 @@
+<h1><%= @title %></h1>
+
+<table>
+<%- @specs.each do |spec| -%>
+  <tr>
+    <td><%= link_to spec.name, spec.homepage %></td>
+    <td><%= author(spec) %></td>
+  </tr>
+<%- end -%>
+</table>
+
+</p>
+  <a href="/">Back to Home</a>
+</p>

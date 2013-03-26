@@ -5,8 +5,8 @@ require File.expand_path('../lib/arigato/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "arigato"
   gem.version       = Arigato::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = 'Special Thanks Page Generator'
+  gem.description   = 'Generate HTML or JSON, YAML, CSV form your Gemfile' 
   gem.license       = "MIT"
   gem.authors       = ["tnantoka"]
   gem.email         = "bornneet@livedoor.com"
@@ -22,4 +22,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec', '~> 2.4'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   gem.add_development_dependency 'yard', '~> 0.8'
+  gem.add_development_dependency 'simplecov'
+
+  gem.add_dependency 'thor', '0.17.0'
+  gem.add_dependency 'bundler', '1.3.4'
 end
