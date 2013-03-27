@@ -17,7 +17,7 @@
 
 == Features
 
-  Generate HTML or JSON, YAML, CSV form your Gemfile
+  Generate HTML or JSON, YAML, CSV from your Gemfile
 
 == Examples
 

@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "arigato"
   gem.version       = Arigato::VERSION
   gem.summary       = 'Special thanks page generator'
-  gem.description   = 'Generate HTML or JSON, YAML, CSV form your Gemfile' 
+  gem.description   = 'Generate HTML or JSON, YAML, CSV from your Gemfile' 
   gem.license       = "MIT"
   gem.authors       = ["tnantoka"]
   gem.email         = "bornneet@livedoor.com"
