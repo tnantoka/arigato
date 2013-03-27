@@ -13,7 +13,7 @@
 
 == Description
 
-  Special Thanks Page Generator
+  Special thanks page generator
 
 == Features
 

@@ -3,13 +3,15 @@ require 'arigato/version'
 module Arigato
   class View
 
+    TITLE = 'Special Thanks'
+
     attr_accessor :theme, :layout, :gemfile, :title
 
     def initialize(theme, gemfile = './Gemfile', layout = true) 
       @theme = theme
       @specs = Arigato.specs(gemfile)
       @layout = layout
-      @title = 'Special Thanks'
+      @title = TITLE
     end
     
     def render 
