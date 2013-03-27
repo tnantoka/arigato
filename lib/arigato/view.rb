@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 require 'arigato/version'
 
 module Arigato
