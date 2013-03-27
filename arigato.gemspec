@@ -23,6 +23,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   gem.add_development_dependency 'yard', '~> 0.8'
   gem.add_development_dependency 'simplecov'
+  gem.add_development_dependency 'coveralls'
 
   gem.add_dependency 'thor', '~> 0.17.0'
   gem.add_dependency 'bundler', '~> 1.3.4'
