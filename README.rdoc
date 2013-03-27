@@ -21,6 +21,8 @@
 
 == Examples
 
+  $ cd path/to/your_project
+  $ bundle
   $ thanks g bootstrap
         create  thanks
         create  thanks/index.html
