@@ -5,7 +5,7 @@ require File.expand_path('../lib/arigato/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "arigato"
   gem.version       = Arigato::VERSION
-  gem.summary       = 'Special Thanks Page Generator'
+  gem.summary       = 'Special thanks page generator'
   gem.description   = 'Generate HTML or JSON, YAML, CSV form your Gemfile' 
   gem.license       = "MIT"
   gem.authors       = ["tnantoka"]
