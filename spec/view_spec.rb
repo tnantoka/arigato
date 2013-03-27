@@ -1,5 +1,3 @@
-# coding: UTF-8
-
 require 'spec_helper'
 require 'arigato'
 
@@ -26,7 +24,7 @@ module Arigato
           end
         end
         it 'contains specs author' do
-          %w(André Arko Yehuda Katz).each do |author|
+          %w(Arko Yehuda Katz).each do |author|
             expect(subject.render).to match(author)    
           end
         end
@@ -52,7 +50,7 @@ module Arigato
           end
         end
         it 'contains specs author' do
-          %w(André Arko Yehuda Katz).each do |author|
+          %w(Arko Yehuda Katz).each do |author|
             expect(subject.render).to match(author)    
           end
         end
