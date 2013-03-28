@@ -25,6 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'simplecov'
   gem.add_development_dependency 'coveralls'
 
-  gem.add_dependency 'thor', '~> 0.17.0'
-  gem.add_dependency 'bundler', '~> 1.3.2'
+  gem.add_dependency 'thor'
+  gem.add_dependency 'bundler'
+  gem.add_dependency 'activesupport'
 end

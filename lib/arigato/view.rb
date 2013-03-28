@@ -53,11 +53,7 @@ module Arigato
     end
 
     def link_to(label, href, target = '_blank')
-      if href
-        %!<a href="#{href}" target="#{target}">#{label}</a>!
-      else
-        label
-      end
+      %!<a href="#{href}" target="#{target}">#{label}</a>!
     end
 
     def content_for(title = nil)

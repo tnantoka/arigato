@@ -4,7 +4,7 @@
 <table>
 <%- @specs.each do |spec| -%>
   <tr>
-    <td><%= link_to(spec.name, spec.homepage) %></td>
+    <td><%= spec.homepage ? link_to(spec.name, spec.homepage) : spec.name %></td>
     <td><%= Arigato::View.author(spec) %></td>
   </tr>
 <%- end -%>
