@@ -14,7 +14,8 @@
 == Description
 
 Special thanks page generator
-"Arigato" means "Thanks" in Japanese
+
+("Arigato" means "Thanks" in Japanese)
 
 == Features
 
