@@ -10,9 +10,10 @@ module Arigato
 
     def specs(file)
       path = Pathname.new(file)
+      lockfile = path.sub_ext('.lock')
       dsl = Bundler::Dsl.new
       dsl.eval_gemfile(file)
-      specs = dsl.to_definition(nil, {}).specs.to_a
+      specs = dsl.to_definition(lockfile, {}).specs.to_a
 
       specs.unshift(self.spec('Ruby', 'http://www.ruby-lang.org/', 'Yukihiro Matsumoto'))
 

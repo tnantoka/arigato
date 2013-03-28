@@ -80,6 +80,16 @@ module Arigato
           expect(File.read(CLI::HTML_FILE)).to match('bootstrap')
         end
       end
+
+      context 'when gem with git' do
+        before(:each) do
+          subject.invoke(:generate, nil, file: 'Gemfile')
+        end
+        it 'generate HTML with bootstrap' do
+          expect(File.read(CLI::HTML_FILE)).to match('twitter-bootstrap-rails')
+        end
+      end
+
     end
    
   end
