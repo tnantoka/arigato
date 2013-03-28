@@ -60,7 +60,10 @@ module Arigato
       end
     end
 
-    def author(spec)
+    def content_for(title = nil)
+    end
+
+    def self.author(spec)
       spec.author ? "by #{spec.author}" : ''
     end
 
