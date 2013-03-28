@@ -5,7 +5,7 @@ module Arigato
 
     TITLE = 'Special Thanks'
 
-    attr_accessor :theme, :layout, :gemfile, :title
+    attr_accessor :theme, :specs, :layout, :title
 
     def initialize(theme, gemfile = './Gemfile', layout = true) 
       @theme = theme
