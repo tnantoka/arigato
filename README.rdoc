@@ -13,11 +13,12 @@
 
 == Description
 
-  Special thanks page generator
+Special thanks page generator
+"Arigato" means "Thanks" in Japanese
 
 == Features
 
-  Generate HTML or JSON, YAML, CSV from your Gemfile
+Generate HTML or JSON, YAML, CSV from your Gemfile
 
 == Examples
 
@@ -29,7 +30,7 @@
 
 == Requirements
 
- Ruby 1.9+ 
+* Ruby 1.9+ 
 
 == Install
 
