@@ -2,7 +2,7 @@
 
 {<img src="https://travis-ci.org/tnantoka/arigato.png?branch=master" alt="Build Status" />}[https://travis-ci.org/tnantoka/arigato]
 {<img src="https://coveralls.io/repos/tnantoka/arigato/badge.png?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/tnantoka/arigato]
-{<img src="https://gemnasium.com/tnantoka/konnyaku.png" alt="Dependency Status" />}[https://gemnasium.com/tnantoka/konnyaku]
+{<img src="https://gemnasium.com/tnantoka/arigato.png" alt="Dependency Status" />}[https://gemnasium.com/tnantoka/arigato]
 {<img src="https://codeclimate.com/github/tnantoka/arigato.png" alt="Code Climate" />}[https://codeclimate.com/github/tnantoka/arigato]
 {<img src="http://api.coderwall.com/tnantoka/endorsecount.png" alt="endorse" />}[http://coderwall.com/tnantoka]
 
