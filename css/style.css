@@ -58,5 +58,14 @@ body {
 }
 
 .masthead h3 {
-  visibility: hidden;
+  display: none;
+}
+
+.header_ad {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer_ad {
+  margin-left: -15px;
 }
