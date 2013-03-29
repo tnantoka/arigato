@@ -6,7 +6,7 @@
 {<img src="https://codeclimate.com/github/tnantoka/arigato.png" alt="Code Climate" />}[https://codeclimate.com/github/tnantoka/arigato]
 {<img src="http://api.coderwall.com/tnantoka/endorsecount.png" alt="endorse" />}[http://coderwall.com/tnantoka]
 
-* {Homepage}[https://github.com/tnantoka/arigato#readme]
+* {Homepage}[http://tnantoka.github.com/arigato]
 * {Issues}[https://github.com/tnantoka/arigato/issues]
 * {Documentation}[http://rubydoc.info/gems/arigato/frames]
 * {Email}[mailto:bornneet at livedoor.com]
